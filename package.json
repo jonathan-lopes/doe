@@ -1,0 +1,22 @@
+{
+  "name": "doe",
+  "version": "1.0.0",
+  "description": "marotonadev 3.0 Primeira aplicação WEB.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Jonatahan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
